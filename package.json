@@ -1,0 +1,16 @@
+{
+  "name": "mastering-nuxt",
+  "version": "0.0.1",
+  "description": "Project to learn NuxtJS",
+  "main": "index.js",
+  "author": "Rennan Ribas",
+  "license": "MIT",
+  "dependencies": {
+    "nuxt": "^2.15.6"
+  },
+  "scripts":{
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  }
+}
