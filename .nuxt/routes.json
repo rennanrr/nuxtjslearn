@@ -1,9 +1,14 @@
 [
   {
+    "name": "home-id",
+    "path": "/home/:id?",
+    "component": "/Users/rennanribas/Projects/IndieCampers/NuxtBnB/pages/home/_id.vue",
+    "chunkName": "pages/home/_id"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/Users/rennanribas/Projects/IndieCampers/NuxtBnB/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_3a0043e1"
+    "chunkName": "pages/index"
   }
 ]
