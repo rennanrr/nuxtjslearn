@@ -2,18 +2,20 @@ export default {
   components: true,
   head: {
     titleTemplate: "Mastering Nuxt: %s",
-    htmLAttrs: {
-      Lang: "en"
+    htmlAttrs: {
+      lang: "en"
     },
     bodyAttrs: {
       class: ["my-style"]
     },
     meta: [{
-      charset: "utf-8"
+      charset: "utf-8",
     }]
   },
   router: {
-    prefetchLinks: false
+    prefetchLinks: false,
   },
-  plugins: [ '~/plugins/maps.client', '~/plugins/dataApi' ]
+  plugins: ['~/plugins/maps.client', '~/plugins/dataApi'],
+  modules: [],
+  buildModules: ['@nuxtjs/tailwindcss']
 }
