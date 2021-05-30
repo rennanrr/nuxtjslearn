@@ -12,23 +12,25 @@
   </div>
 </template>
 <script>
-import homes from '~/data/homes'
+import homes from "~/data/homes";
 
 export default {
-  head(){
-    return{
-      title: 'Homepage',
-      meta: [{
-        name: 'description',
-        content: 'This is a homepage!',
-        hid: 'description'
-      }]
-    }
-  },
-  data(){
+  head() {
     return {
-      homes: homes.slice(0,3)
-    }
-  }
-}
+      title: "Homepage",
+      meta: [
+        {
+          name: "description",
+          content: "This is a homepage!",
+          hid: "description",
+        },
+      ],
+    };
+  },
+  data() {
+    return {
+      homes: homes.slice(0, 3),
+    };
+  },
+};
 </script>
